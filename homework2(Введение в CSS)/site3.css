@@ -26,7 +26,6 @@ menu{
   width : 10%;
   height : 600px;
   margin-top : 0px;
-  margin-bottom: ;
   border-radius : 10px 10px 10px 10px;
   opacity : 0.7;
 }
@@ -41,7 +40,7 @@ footer{
   text-align : center;
   line-height: 8vh;
   display : block;
-  position : absolute;
+  position : fixed;
   border-style : solid;
   margin-left : 5%;
   width : 90%;
