@@ -1,63 +1,62 @@
 HTML{
-  background-color:black;
-  background-size: cover;
+  background-color : rgba(0,0,0,1);
+  background-size : cover;
 }
 
 .flex-header{
-  background-color : white;
+  background-color : rgba(255,255,255,0.5);
   text-align : center;
-  line-height: 10vh;
+  line-height : 10vh;
   display : flex;
-  flex-direction:row;
-  justify-content:space-around; /* center items horizontally, in this case */
-  align-items: center;
+  flex-direction : row;
+  justify-content : space-around; /* center items horizontally, in this case */
+  align-items : center;
   position : fixed;
   border-style : solid;
   margin-left : 0;
   width : 98%;
   height : 10vh;
   margin-top : 0px;
-  opacity : 0.5;
-  z-index: 2;
+  z-index : 2;
 }
 .flex-header:hover {
-  background-color : black;
-  color : white;
+  background-color : rgba(0,0,0,1);
+  color : rgba(255,255,255,1);
   display : flex;
 
 }
 .columnLeft{
   display : flex;
-  flex-wrap :nowrap;
-  height :80%;
-  width:20%;
-  float:left;
-  position:relative;
+  flex-wrap : nowrap;
+  height : 80%;
+  width : 20%;
+  float : left;
+  position : relative;
 }
 .columnRight{
   display : flex;
-  flex-wrap :nowrap;
-  height :80%;
-  width:20%;
-  float:right;
-  position:relative;
+  flex-wrap : nowrap;
+  height : 80%;
+  width : 20%;
+  float : right;
+  position : relative;
 }
 .columnCenter{
   display : flex;
-  flex-wrap :nowrap;
-  text-align: center;
-  float:none;
+  flex-wrap : nowrap;
+  text-align : center;
+  float : none;
 }
 .flex-mainBlockRow{
   background-color : grey;
   display : flex;
-  flex-direction:row;
-  justify-content:space-around; /* center items horizontally, in this case */
-  align-items: center;
+  flex-direction : row;
+  justify-content : space-around; /* center items horizontally, in this case */
+  align-items : center;
   position : absolute;
   border-style : solid;
   margin-left : 0;
-  margin-right:0;
+  margin-right : 0;
   width : 98%;
   margin-top : 10%;
 }
@@ -65,9 +64,9 @@ HTML{
   background-color : rgba(0,0,0,1);
   color : rgba(255,255,255,1);
   display : flex;
-  flex-direction:column;
-  justify-content:space-around;
-  align-items: center;
+  flex-direction : column;
+  justify-content : space-around;
+  align-items : center;
   position : static;
   float : left;
   border-right : solid;
