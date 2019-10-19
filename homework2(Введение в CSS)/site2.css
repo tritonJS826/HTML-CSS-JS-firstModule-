@@ -1,0 +1,31 @@
+.red{
+  background-color : red;
+  display : block;
+  position: relative;
+  margin-left : 0;
+  margin-top : 0;
+  width : 50%;
+  height: 50vh;
+  margin-top :0px;
+}
+.blue{
+  background-color : blue;
+  text-align: right;
+  display : block;
+  position: relative;
+  margin-right : 0;
+  margin-bottom : 0;
+  width : 50%;
+  height: 50vh;
+  float: right;
+}
+.green{
+  background-color : green;
+  display : block;
+  position: absolute;
+  top : 25%;
+  left : 25%;
+  width : 50%;
+  height: 50vh;
+  z-index: 2;
+}

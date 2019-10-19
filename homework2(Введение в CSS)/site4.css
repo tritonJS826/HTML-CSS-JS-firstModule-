@@ -1,0 +1,90 @@
+.flex-header{
+  background-color : white;
+  text-align : center;
+  line-height: 10vh;
+  display : flex;
+  flex-direction:row;
+  justify-content:space-around; /* center items horizontally, in this case */
+  align-items: center;
+  position : fixed;
+  border-style : solid;
+  margin-left : 0;
+  width : 98%;
+  height : 10vh;
+  margin-top : 0px;
+  opacity : 0.5;
+  z-index: 2;
+}
+.flex-header:hover {
+  background-color : black;
+  color : white;
+  display : flex;
+
+}
+.columnLeft{
+  display : flex;
+  flex-wrap :nowrap;
+  height :80%;
+  width:20%;
+  float:left;
+  position:relative;
+}
+.columnRight{
+  display : flex;
+  flex-wrap :nowrap;
+  height :80%;
+  width:20%;
+  float:right;
+  position:relative;
+}
+.columnCenter{
+  display : flex;
+  flex-wrap :nowrap;
+  text-align: center;
+  float:none;
+}
+.flex-mainBlockRow{
+  background-color : lightgreen;
+  display : flex;
+  flex-direction:row;
+  justify-content:space-around; /* center items horizontally, in this case */
+  align-items: center;
+  position : absolute;
+  border-style : solid;
+  margin-left : 0;
+  margin-right:0;
+  width : 98%;
+  margin-top : 10%;
+}
+.flex-mainBlockColumnLeft{
+  background-color : lightgreen;
+  display : flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items: center;
+  position : static;
+  float : left;
+  border-right : solid;
+  border-left : solid;
+  margin-left : 15%;
+  width : 34%;
+  margin-top : 10%;
+}
+
+.flex-mainBlockColumnRight{
+  background-color : lightgreen;
+  display : flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items: center;
+  position : static;
+  float: right;
+  border-right : solid;
+  border-left : solid;
+  margin-right:15%;
+  width : 34%;
+  margin-top : 10%;
+}
+.mainBlock{
+  padding-top:  50px;
+}
