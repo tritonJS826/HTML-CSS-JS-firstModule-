@@ -18,8 +18,9 @@ header{
 }
 menu{
   background-color: #cccccc;
-  text-align : left;
-  display : block;
+  line-height: normal;
+  word-wrap : break-word;
+  display : inline-block;
   position : fixed;
   border-style :none;
   margin-left : 0%;
@@ -31,7 +32,7 @@ menu{
 }
 .centerBlock{
   text-align : left;
-  display: block;
+  display: inline-block;
   position: relative;
   margin-left : 15%;
 }
@@ -47,4 +48,6 @@ footer{
   height : 15vh;
   bottom : 0px;
   border-radius: 15px 15px 0px 0px;
+}
+a{
 }

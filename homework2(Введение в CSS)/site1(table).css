@@ -1,0 +1,24 @@
+table {
+  width: 99%;
+  position:fixed;
+  border-right: 1vh solid white;
+}
+
+td {
+  height: 22vh;
+
+
+}
+
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+.grey {
+  background-color: grey;
+}
