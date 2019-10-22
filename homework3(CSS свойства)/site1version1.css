@@ -19,12 +19,13 @@ header{
 .center{
   width : 99%;
   height: 65%;
-  min-height: 500px;
+  min-height: 800px;
   background-color : silver;
   margin-left: 0px;
   margin-right : 0px;
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-top : 1%;
   margin-bottom : 1%;
   border-radius : 15px 15px 15px 15px;
@@ -33,6 +34,7 @@ header{
 .text {
   margin-top : 3%;
   min-height: 70px;
+  padding-right: 3%;
 }
 .text2 {
   align-items : center;
@@ -46,15 +48,16 @@ header{
  color: white;
  border-radius: 70px 70px 70px 70px;
  height:115px;
+ width:115px;
 }
 footer{
   background-color : black;
   text-align : left;
   padding-left : 10px;
   color : white;
-  position:relative;
   display : inline-block;
-  float: bottom;
+  position:relative;
+  bottom:0;
   margin-left:0px;
   margin-top:1%;
   margin-right:0px;
