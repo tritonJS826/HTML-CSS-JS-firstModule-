@@ -1,4 +1,4 @@
-@media (max-width:2000px) {
+@media screen,(max-width:5000px){
   //forPC
   HTML {
     background-color: black;
@@ -54,7 +54,7 @@
   }
 }
 
-@media (max-width:800px) {
+@media (max-width:800px),handheld and (orientation:landscape) {
   //for ipad
   HTML{
     background-color: black;
@@ -124,7 +124,7 @@
 }
 
 
-@media (max-width:400px)  {
+@media (max-width:400px), handheld  {
   //forIphone
   HTML{
     background-color: black;
