@@ -1,0 +1,43 @@
+HTML{
+    width: 100%;
+  }
+header{
+  background-color : grey;
+  text-align:left;
+  padding-top: 2%;
+  padding-left : 15px;
+  display : inline-block;
+  position : relative;
+  width : 95%;
+  height : 10vh;
+  margin-top : 0px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.center{
+  width : 80%;
+  background-color : red;
+  text-align : left;
+  padding-left : 15px;
+  line-height: 25vh;
+  display: inline-block;
+  margin-left : 10%;
+  margin-right : 10%;
+  margin-top : 1%;
+  margin-bottom : 1%;
+  border-radius: 15px 15px 15px 15px;
+
+}
+footer{
+  background-color : black;
+  text-align : left;
+  padding-left : 15px;
+  color : white;
+  line-height: 8vh;
+  display : inline-block;
+  margin-top : 30vh;
+  margin-left : 5%;
+  width : 90%;
+  height : 15vh;
+  border-radius: 15px 15px 0px 0px;
+}

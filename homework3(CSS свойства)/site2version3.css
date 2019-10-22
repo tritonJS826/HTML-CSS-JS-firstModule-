@@ -1,0 +1,64 @@
+HTML{
+  background-color: black;
+}
+.orange{
+  width : 33%;
+  background-color : orange;
+  height: 10vh;
+  display: inline-block;
+  position: absolute;
+  margin-top : 1vh;
+  text-align: center;
+
+
+}
+.pink{
+  width : 65%;
+  background-color : pink;
+  height: 10vh;
+  display: inline-block;
+  position: absolute;
+  margin-left : 34%;
+  margin-top : 1vh;
+  text-align: center;
+
+}
+.red{
+  width : 99%;
+  background-color : red;
+  height: 65vh;
+  display: inline-block;
+  position: absolute;
+  margin-top : 12vh;
+  text-align: center;
+
+}
+.green{
+  width : 49%;
+  background-color : green;
+  height: 19vh;
+  display: inline-block;
+  margin-top : 79vh;
+  position:absolute;
+  text-align: center;
+
+}
+.blue{
+  width : 49%;
+  background-color : blue;
+  height: 19vh;
+  display: inline-block;
+  margin-left: 50%;
+  margin-top : 79vh;
+  position:absolute;
+  text-align: center;
+
+}
+.brown{
+  visibility: hidden;
+  position:absolute;
+  height:0px;
+}
+.flex-img{
+  max-height:100%;
+}

@@ -1,0 +1,51 @@
+HTML {
+  background-color: black;
+}
+.red{
+  width : 25%;
+  background-color : darkred;
+  height : 10vh;
+  display : inline-block;
+  text-align: center;
+}
+.orange{
+  width : 72%;
+  background-color : darkorange;
+  height : 10vh;
+  display : inline-block;
+  margin-bottom : 1vh;
+  margin-left : 1vh;
+  text-align: center;
+}
+.green{
+  width : 98%;
+  background-color : darkgreen;
+  height : 65vh;
+  display : inline-block;
+  margin-bottom : 1vh;
+  text-align: center;
+}
+.brown{
+  width : 33%;
+  background-color : brown;
+  height : 20vh;
+  display : inline-block;
+  text-align: center;
+}
+.blue{
+  width : 33%;
+  background-color : darkblue;
+  height : 20vh;
+  display : inline-block;
+  text-align: center;
+}
+.pink{
+  width : 31%;
+  background-color : pink;
+  height : 20vh;
+  display : inline-block;
+  text-align: center;
+}
+.flex-img{
+  max-height:100%;
+}
