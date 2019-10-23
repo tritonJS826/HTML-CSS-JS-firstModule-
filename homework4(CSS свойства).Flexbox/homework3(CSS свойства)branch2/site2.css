@@ -1,0 +1,205 @@
+@media screen,(max-width:5000px){
+  //forPC
+  HTML {
+    width:100%;
+    height:100%;
+  }
+  body {
+    background-color: black;
+    width:100%;
+    height: 100%;
+  }
+  .red{
+    width : 25%;
+    background-color : darkred;
+    height : 10vh;
+    display : inline-block;
+    text-align: center;
+  }
+  .orange{
+    width : 72%;
+    background-color : darkorange;
+    height : 10vh;
+    display : inline-block;
+    margin-bottom : 1vh;
+    margin-left : 1vh;
+    text-align: center;
+  }
+  .green{
+    width : 98%;
+    background-color : darkgreen;
+    height : 65vh;
+    display : inline-block;
+    margin-bottom : 1vh;
+    text-align: center;
+  }
+  .brown{
+    width : 33%;
+    background-color : brown;
+    height : 20vh;
+    display : inline-block;
+    text-align: center;
+  }
+  .blue{
+    width : 33%;
+    background-color : darkblue;
+    height : 20vh;
+    display : inline-block;
+    text-align: center;
+  }
+  .indigo{
+    width : 31%;
+    background-color : indigo;
+    height : 20vh;
+    display : inline-block;
+    text-align: center;
+  }
+  .flex-img{
+    max-height:100%;
+    max-width:100%;
+  }
+}
+
+@media (max-width:800px),handheld and (orientation:landscape) {
+  //for ipad
+  HTML{
+    width:100%;
+    height:100%;
+
+  }
+  body{
+    background-color: black;
+    width:99%;
+    height: 99%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  .orange{
+    order:1;
+    width : 33%;
+    background-color : darkorange;
+    height: 10vh;
+    display: flex;
+    position: relative;
+    margin : 1vh;
+    justify-content: center;
+
+
+  }
+  .indigo{
+    order:2;
+    width : 61%;
+    background-color : indigo;
+    height: 10vh;
+    display: flex;
+    position: relative;
+    margin : 1vh;
+    justify-content: center;
+
+  }
+  .red{
+    order: 3;
+    width : 96%;
+    background-color : darkred;
+    height: 65vh;
+    display: flex;
+    position: relative;
+    margin: 1vh;
+    justify-content: center;
+
+  }
+  .green{
+    order:4;
+    width : 49%;
+    background-color : darkgreen;
+    height: 19vh;
+    display: flex;
+    margin-top : 1vh;
+    position:relative;
+    margin:1vh;
+    justify-content: center;
+
+  }
+  .blue{
+    order:5;
+    width : 44%;
+    background-color : darkblue;
+    height: 19vh;
+    display: flex;
+    margin:1vh;
+    position:relative;
+    justify-content: center;
+
+  }
+  .brown{
+    visibility: hidden;
+    position:absolute;
+    height:0px;
+  }
+  .flex-img{
+    height:100%;
+    max-width:100%;
+  }
+}
+
+@media (max-width:400px), handheld  {
+  //forIphone
+  HTML{
+    width:98%;
+    height:98%;
+  }
+  body{
+    background-color: black;
+    width:97%;
+    height: 97%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  .green{
+    order:1;
+    width : 99%;
+    background-color : darkgreen;
+    height: 30%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin:0;
+
+  }
+  .indigo{
+    order:2;
+    width : 99%;
+    background-color : indigo;
+    height: 20%;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    margin:0;
+    margin-top:1%;
+
+
+  }
+  .red{
+    order:3;
+    width : 99%;
+    background-color : darkred;
+    height: 50%;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    margin:0;
+    margin-top:1%
+
+  }
+  .brown, .blue, .orange{
+    visibility: hidden;
+    position:absolute;
+    height:0px;
+  }
+  .flex-img{
+    height:100%;
+    max-width:100%;
+  }
+}

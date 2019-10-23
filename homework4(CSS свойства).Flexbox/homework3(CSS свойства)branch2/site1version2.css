@@ -1,0 +1,66 @@
+HTML{
+    width: 100%;
+    height:99%;
+  }
+body {
+  display:flex;
+  flex-direction: column;
+  height:99%;
+}
+header {
+  flex:0 0 15%;
+  display : flex;
+  flex-direction : column;
+  width : 100%;
+  min-height: 70px;
+  background-color : grey;
+  align-items : center;
+  padding : 0px;
+  margin-top : 0px;
+  margin-right : 0px;
+  border-radius : 0px 0px 15px 15px;
+}
+.emptyField{
+  flex:1 0 10%;
+}
+.center{
+  flex:1 0 5%;
+  width : 80%;
+  background-color : silver;
+  text-align : left;
+  padding-left : 15px;
+  display: flex;
+  position:relative;
+  flex-direction: column;
+  justify-content:flex-start;
+  margin-left : 10%;
+  margin-right : 10%;
+  margin-top : 1%;
+  border-radius: 15px 15px 15px 15px;
+}
+.center > div{
+  padding:0%;
+  height:auto;
+  position:static;
+
+}
+.text{
+}
+.text2{
+}
+footer{
+  flex: 0 0 10%;
+  background-color : black;
+  text-align : center;
+  display : flex;
+  position : relative;
+  flex-direction : column;
+  color : white;
+  bottom : 0;
+  margin-left : 0px;
+  margin-top : 1%;
+  margin-right : 0px;
+  width : 99%;
+  min-height : 100px;
+  border-radius : 15px 15px 0px 0px;
+}

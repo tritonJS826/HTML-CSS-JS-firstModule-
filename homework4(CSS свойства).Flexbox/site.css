@@ -1,0 +1,86 @@
+HTML{
+  width:99%;
+  height:99%;
+}
+body{
+  width: 100%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+}
+.LOGOAndSearchBlock{
+  background-color: rgba(154,220,193,1);
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.LOGOAndSearchBlock > div{
+  background-color: rgba(72,187,140,1);
+  width: 25%;
+  display: flex;
+  justify-content : center;
+}
+.menuPoints{
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height:10%;
+}
+.menuPoints > div{
+  background-color: rgba(72,187,140,1);
+  display: flex;
+  height:30%;
+  align-items: center;
+  justify-content : center;
+}
+.leftMenuAndMainBlock {
+  display: flex;
+  flex-direction: row;
+  background-color:rgba(154,220,193,1);
+}
+.leftMenu{
+  display:flex;
+  flex-direction: column;
+  width:30%;
+}
+.leftMenu > div{
+  background-color: rgba(72,187,140,1);
+  display: flex;
+  height:5vh;
+  margin-top:3vh;
+  align-items: center;
+  justify-content : center;
+
+}
+.mainBlock{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mainBlock > div{
+  width:160px;
+  height: 160px;
+  margin:60px;
+  position:relative;
+  margin-top:3vh;
+
+}
+.flex-image {
+  border-width: 10px;
+  width:100%;
+  height:100%;
+  border-radius: 400px;
+  border:4px solid rgba(72,187,140,1);
+}
+.footer{
+  display:flex;
+  flex-direction: row;
+  height:5vh;
+  background-color: rgba(72,187,140,1);
+  justify-content: center;
+  align-items: center;
+}

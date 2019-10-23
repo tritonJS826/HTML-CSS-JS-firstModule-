@@ -1,0 +1,73 @@
+header {
+  display : flex;
+  width : 99%;
+  flex-direction : column;
+  min-height : 15%;
+  height : 15%;
+  background-color : grey;
+  align-items : center;
+  padding : 0;
+  margin-top : 0px;
+  margin-right : 0%;
+  border-radius : 0px 0px 15px 15px;
+}
+.center{
+  display : flex;
+  flex-direction : column;
+  width : 99%;
+  min-height : 65%;
+  min-height : 800px;
+  background-color : silver;
+  margin-left : 0%;
+  margin-right : 0%;
+  margin-top : 1%;
+  margin-bottom : 1%;
+  border-radius : 15px 15px 15px 15px;
+  padding:0;
+}
+.center > div {
+  display : flex;
+  flex-direction : column;
+  position:relative;
+  align-items : center;
+  justify-content: space-between;
+}
+.text {
+  margin-top : 3%;
+  min-height : 70px;
+  padding-right : 3%;
+  text-align : center;
+}
+.text2 {
+  align-items : center;
+  text-align : center;
+  padding-right : 3%;
+}
+.button{
+ background : -moz-linear-gradient(blue,black);
+ border-color : -moz-linear-gradient(blue,red);
+ margin-top : 4%;
+ margin-bottom : 1%;
+ border :10px;
+ color : white;
+ border-radius : 70px 70px 70px 70px;
+ height : 115px;
+ width : 115px;
+}
+footer{
+  background-color : black;
+  text-align : center;
+  display : flex;
+  position : relative;
+  flex-direction : column;
+  color : white;
+  bottom : 0;
+  margin-left : 0%;
+  margin-top : 1%;
+  margin-right : 0px;
+  padding: 0;
+  width : 99%;
+  height : 15%;
+  min-height : 150px;
+  border-radius : 15px 15px 0px 0px;
+}
