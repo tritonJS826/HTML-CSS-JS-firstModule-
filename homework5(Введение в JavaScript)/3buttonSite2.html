@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>3buttonsSite</TITLE>
+<link href="3buttonSite2.css" rel="stylesheet" type="text/css" media="all">
+
+<BODY>
+  <div class="center">
+    <h1> Good! It is a new page</h1><br>
+    <button class="center" id="butBack" type="button">Go to the back </button>
+    <script>
+      //чтоб не создавать лишний JS файл
+      let butBack = document.getElementById('butBack');
+      butBack.addEventListener("click", back);
+      function back(){
+        window.location.href = "3buttonsSite.html"
+      }
+    </script>
+
+  </div>
+
+  <script src="3buttonsSite.js"></script>
+
+
+</BODY>
+</HEAD>
+</HTML>
