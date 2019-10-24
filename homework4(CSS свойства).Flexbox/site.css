@@ -60,8 +60,15 @@ body{
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.forBigScreenResolution{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width:1200px;
+}
 
-.mainBlock > div{
+.forBigScreenResolution > div{
   width:160px;
   height: 160px;
   margin:60px;
