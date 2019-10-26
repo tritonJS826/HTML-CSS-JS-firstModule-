@@ -1,0 +1,26 @@
+body{
+  width: 99%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+}
+.mainBlock{
+  display: flex;
+  flex-direction: row;
+  background-color:rgba(154,220,193,1);
+  justify-content: space-between;
+  min-height:97vh;
+  max-width:100%;
+  align-items: center;
+  margin:0;
+}
+.barButonDiv{
+
+}
+.formDiv{
+
+  text-align: center;
+  flex:0 0 80%;
+
+}
+.barMenu{}
