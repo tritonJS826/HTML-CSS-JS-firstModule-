@@ -14,13 +14,82 @@ body{
   align-items: center;
   margin:0;
 }
-.barButonDiv{
-
+.barButtonDiv{
+  flex:0 0 20%;
+}
+.barButton{
+  animation-name: menuButtonAnimation;
+  animation-duration:4s;
+  animation-fill-mode: forwards;
 }
 .formDiv{
-
   text-align: center;
   flex:0 0 80%;
+}
+.growingImage{
+  height:30%;
+  width:30%;
+  border-radius: 3px;
+}
+.growingImage:hover{
+  animation-name: imgAnimation;
+  animation-duration:4s;
+  animation-fill-mode: forwards;
 
 }
-.barMenu{}
+.barMenu{
+  background-color: blue;
+  min-width:400px;
+  height:10vh;
+  display: inline;
+  position:fixed;
+  margin-top:45vh;
+  margin-bottom:50vh;
+  margin-left: -450px;
+}
+
+@keyframes  menuButtonAnimation {
+  from {
+    height: 50px;
+    width:20%;
+    color:black;
+    border-radius: 3px;
+  }
+  to {
+    height: 50vh;
+    width:100%;
+    background-color: green;
+    color:white;
+    border-radius: 500vH;
+  }
+}
+@keyframes imgAnimation{
+  from{
+    height:30%;
+    width:30%;
+    border-radius: 3px;
+  }
+  to{
+    height:45%;
+    width:45%;
+    border-radius: 30px;
+
+  }
+}
+@keyframes openbarMenuAnimation{
+  from{
+    margin-left: -450px;
+  }
+  to{
+    margin-left: 0;
+  }
+}
+
+@keyframes closebarMenuAnimation{
+  from{
+    margin-left: 0;
+  }
+  to{
+    margin-left: -450px;
+  }
+}
