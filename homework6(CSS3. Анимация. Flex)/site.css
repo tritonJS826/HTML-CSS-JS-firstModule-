@@ -21,6 +21,9 @@ body{
   animation-name: menuButtonAnimation;
   animation-duration:4s;
   animation-fill-mode: forwards;
+  height: 50px;
+  width:20%;
+  border-radius: 50vh;
 }
 .formDiv{
   text-align: center;
@@ -38,29 +41,27 @@ body{
 
 }
 .barMenu{
-  background-color: blue;
-  min-width:400px;
-  height:10vh;
-  display: inline;
+  //background-color: blue;
+  min-width: 25vH;
+  height:100%;
+  display: flex;
+  flex-direction: column;
   position:fixed;
-  margin-top:45vh;
-  margin-bottom:50vh;
   margin-left: -450px;
+  justify-content: center;
+  align-items: center;
+}
+.blueBackgroundDiv{
+  background-color: blue;
+  width:100%;
 }
 
 @keyframes  menuButtonAnimation {
   from {
-    height: 50px;
-    width:20%;
     color:black;
-    border-radius: 3px;
-  }
-  to {
-    height: 50vh;
-    width:100%;
-    background-color: green;
+  } to {
+    background-color: red;
     color:white;
-    border-radius: 500vH;
   }
 }
 @keyframes imgAnimation{
@@ -68,28 +69,41 @@ body{
     height:30%;
     width:30%;
     border-radius: 3px;
-  }
-  to{
+  } to {
     height:45%;
     width:45%;
     border-radius: 30px;
 
   }
 }
-@keyframes openbarMenuAnimation{
+@keyframes openBarMenuAnimation{
   from{
     margin-left: -450px;
-  }
-  to{
+  } to {
     margin-left: 0;
   }
 }
 
-@keyframes closebarMenuAnimation{
+@keyframes closeBarMenuAnimation{
   from{
     margin-left: 0;
-  }
-  to{
+    background-color: green;
+  }  to {
     margin-left: -450px;
+    background-color: red;
   }
+}
+@keyframes changeColorOnRed {
+    from:{
+      background-color: green;
+    } to {
+      background-color: red;
+    }
+}
+@keyframes changeColorOnGreen {
+    from:{
+      background-color: red;
+    } to {
+      background-color: green;
+    }
 }
