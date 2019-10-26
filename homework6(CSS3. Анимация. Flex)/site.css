@@ -25,6 +25,9 @@ body{
   width:20%;
   border-radius: 50vh;
 }
+#backBarButton{
+  height:20vh;
+}
 .formDiv{
   text-align: center;
   flex:0 0 80%;
@@ -78,7 +81,6 @@ body{
 }
 @keyframes openBarMenuAnimation{
   from{
-    margin-left: -450px;
   } to {
     margin-left: 0;
   }
@@ -86,11 +88,8 @@ body{
 
 @keyframes closeBarMenuAnimation{
   from{
-    margin-left: 0;
-    background-color: green;
-  }  to {
+  } to {
     margin-left: -450px;
-    background-color: red;
   }
 }
 @keyframes changeColorOnRed {

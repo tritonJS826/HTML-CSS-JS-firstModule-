@@ -7,8 +7,7 @@ let backBarButton =document.getElementById('backBarButton');
 //barButton.addEventListener('click', openBarMenu);
 //barMenu.addEventListener('click',closeBarMenu);//Этот листенер переделать на кнопочку закрытия в barMenu : barMenu -> closeButtonBarMenu
 formSubmit.addEventListener('click', checkFormType);
-backBarButton.addEventListener('click',closeBarMenu)
-;
+backBarButton.addEventListener('click',closeBarMenu);
 function checkFormType() {
   if (!isNaN(formText.value) && formText.value!=""){
     alert('Yes, it is a number');
