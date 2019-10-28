@@ -1,0 +1,122 @@
+$bodyAndAllBlocksDisplay:flex;
+$backgroundColor:rgba(154,220,193,1);
+$mainBlockalignItems:center;
+$mainBlockMargin:0;
+
+@mixin exercise() {
+  margin: $mainBlockMargin;
+  display: $bodyAndAllBlocksDisplay;
+  background-color: $backgroundColor;
+  align-items: $mainBlockalignItems;
+}
+
+%forBarButton {
+  height: 50px;
+  width:20%;
+  border-radius: 50vh;
+}
+
+body{
+  width: 99%;
+  height: 99%;
+  display: $bodyAndAllBlocksDisplay;
+  flex-direction: column;
+}
+.mainBlock{
+  @include exercise ();
+  flex-direction: row;
+  justify-content: space-between;
+  min-height:97vh;
+  max-width:100%;
+}
+.barButtonDiv{
+  flex:0 0 20%;
+}
+.barButton{
+  @extend %forBarButton;
+  animation-name: menuButtonAnimation;
+  animation-duration:4s;
+  animation-fill-mode: forwards;
+
+}
+#backBarButton{
+  height:20vh;
+}
+.formDiv{
+  text-align: center;
+  flex:0 0 80%;
+}
+.growingImage{
+  height:30%;
+  width:30%;
+  border-radius: 3px;
+}
+.growingImage:hover{
+  animation-name: imgAnimation;
+  animation-duration:4s;
+  animation-fill-mode: forwards;
+
+}
+.barMenu{
+  //background-color: blue;
+  min-width: 25vH;
+  height:100%;
+  display: $bodyAndAllBlocksDisplay;
+  flex-direction: column;
+  position:fixed;
+  margin-left: -450px;
+  justify-content: center;
+  align-items: $mainBlockalignItems;
+}
+.blueBackgroundDiv{
+  background-color: blue;
+  width:100%;
+}
+
+@keyframes  menuButtonAnimation {
+  from {
+    color:black;
+  } to {
+    background-color: red;
+    color:white;
+  }
+}
+@keyframes imgAnimation{
+  from{
+    height:30%;
+    width:30%;
+    border-radius: 3px;
+  } to {
+    height:45%;
+    width:45%;
+    border-radius: 30px;
+
+  }
+}
+@keyframes openBarMenuAnimation{
+  from{
+  } to {
+    margin-left: 0;
+  }
+}
+
+@keyframes closeBarMenuAnimation{
+  from{
+  } to {
+    margin-left: -450px;
+  }
+}
+@keyframes changeColorOnRed {
+    from:{
+      background-color: green;
+    } to {
+      background-color: red;
+    }
+}
+@keyframes changeColorOnGreen {
+    from:{
+      background-color: red;
+    } to {
+      background-color: green;
+    }
+}

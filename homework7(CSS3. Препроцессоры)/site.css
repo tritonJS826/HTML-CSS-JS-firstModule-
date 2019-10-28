@@ -1,0 +1,103 @@
+.barButton {
+  height: 50px;
+  width: 20%;
+  border-radius: 50vh;
+}
+body {
+  width: 99%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+}
+.mainBlock {
+  margin: 0;
+  display: flex;
+  background-color: #9adcc1;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 97vh;
+  max-width: 100%;
+}
+.barButtonDiv {
+  flex: 0 0 20%;
+}
+.barButton {
+  animation-name: menuButtonAnimation;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+#backBarButton {
+  height: 20vh;
+}
+.formDiv {
+  text-align: center;
+  flex: 0 0 80%;
+}
+.growingImage {
+  height: 30%;
+  width: 30%;
+  border-radius: 3px;
+}
+.growingImage:hover {
+  animation-name: imgAnimation;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+.barMenu {
+  min-width: 25vH;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-left: -450px;
+  justify-content: center;
+  align-items: center;
+}
+.blueBackgroundDiv {
+  background-color: blue;
+  width: 100%;
+}
+@keyframes menuButtonAnimation {
+  from {
+    color: black;
+  }
+  to {
+    background-color: red;
+    color: white;
+  }
+}
+@keyframes imgAnimation {
+  from {
+    height: 30%;
+    width: 30%;
+    border-radius: 3px;
+  }
+  to {
+    height: 45%;
+    width: 45%;
+    border-radius: 30px;
+  }
+}
+@keyframes openBarMenuAnimation {
+  to {
+    margin-left: 0;
+  }
+}
+@keyframes closeBarMenuAnimation {
+  to {
+    margin-left: -450px;
+  }
+}
+@keyframes changeColorOnRed {
+  from-background-color: green;
+  to {
+    background-color: red;
+  }
+}
+@keyframes changeColorOnGreen {
+  from-background-color: red;
+  to {
+    background-color: green;
+  }
+}
