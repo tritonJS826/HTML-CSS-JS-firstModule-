@@ -1,3 +1,11 @@
 .carousel-item>img{
-    max-height: 80vh;
+    height: 80vh;
+
 }
+
+.img-right {
+   margin: 5px 5px 5px 5px;
+   padding: 2px;
+   float : right;
+   border : solid;
+   border-color : red;
