@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
     @import url('site.css');
+    @import url('PulseButton.css');
     </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -75,7 +76,7 @@
 <!--textBlock-->
 <div class="container">
   <div class="row">
-  <div class="col text-danger text-center">
+  <div class="col-md text-danger text-center">
     <h2>Вред курения</h2>
     <img src="imgInText2.jpg" style="height:50vh;width:100%" class="img-responsive img-left">
     <p>Курить вредно Курить вредно Курить вредно Курить вредно Курить вредно
@@ -90,7 +91,7 @@
       Курить вредно Курить вредно Курить вредно Курить вредно Курить вредно
     </p>
   </div>
-  <div class="col text-danger text-center">
+  <div class="col-md text-danger text-center">
     <h2>Вред алкоголя</h2>
     <img src="imgInText.jpg" style="height:50vh;width:100%" class="img-about">
     <p class="text-left">И пить вредно И пить вредно И пить вредно
@@ -114,7 +115,7 @@
       И пить вредно И пить вредно И пить вредно И пить вредно И пить вредно
       И пить вредно И пить вредно И пить вредно И пить вредно И пить вредно
       И пить вредно И пить вредно И пить вредно И пить вредно И пить вредно
-      И пить вредно И пить вредно И пить вредно И пить вредно И пить вредно  
+      И пить вредно И пить вредно И пить вредно И пить вредно И пить вредно
     </p>
   </div>
 </div>
@@ -125,7 +126,7 @@
  <div class="row">
 
     <div id="cards" class="card bg-dark text-danger" style="width:20rem;margin:1rem">
-      <img class="card-img-top" src="imgCard1.jpg" alt="Card image">
+      <img class="card-img-top" src="imgCard1.jpg" alt="Card image" height="50%">
        <div class="card-body">
          <h5 class="card-title text-danger">Директор</h5>
          <p class="card-text">Душа компании</p>
@@ -134,7 +135,7 @@
      </div>
 
    <div id="cards" class="card bg-dark text-danger" style="width:20rem;margin:1rem">
-     <img class="card-img-top" src="imgCard2.jpg" alt="Card image">
+     <img class="card-img-top" src="imgCard2.jpg" alt="Card image" height="50%">
        <div class="card-body">
          <h5 class="card-title  text-danger">Заместитель директора</h5>
          <p class="card-text">Славный парень</p>
@@ -143,11 +144,11 @@
    </div>
 
    <div  id="cards" class="card bg-dark text-danger" style="width:20rem;margin:1rem">
-     <img class="card-img-top" src="imgCard3.jpg" alt="Card image">
+     <img class="card-img-top" src="imgCard3.jpg" alt="Card image" height="50%">
        <div class="card-body">
          <h5 class="card-title text-danger">Исполнительный директор</h5>
          <p class="card-text">Душевный человек</p>
-         <a href="#" class="btn btn-primary bg-dark text-danger border-0">Go somewhere</a>
+         <a href="#" class="btn btn-primary bg-dark text-danger border-0" >Go somewhere</a>
        </div>
    </div>
 
@@ -156,7 +157,7 @@
 <div class="row">
 
   <div  id="cards" class="  card bg-dark text-danger" style="width:20rem;margin:1rem">
-    <img class="card-img-top" src="imgCard4.jpg" alt="Card image">
+    <img class="card-img-top" src="imgCard4.jpg" alt="Card image" height="50%">
       <div class="card-body">
         <h5 class="card-title text-danger">Президент компании</h5>
         <p class="card-text">Знает много анекдотов</p>
@@ -164,17 +165,17 @@
       </div>
   </div>
 
-  <div  id="cards" class="  card bg-dark text-danger" style="width:20rem;margin:1rem">
-    <img class="card-img-top" src="imgCard5.png" alt="Card image">
+  <div  id="cards" class="card bg-dark text-danger" style="width:20rem;margin:1rem">
+    <img class="card-img-top" src="imgCard5.jpeg" alt="Card image" height="50%">
       <div class="card-body">
-        <h5 class="card-title text-danger">Держатель контрольного пакета акций компании</h5>
-        <p class="card-text">Никто его не любит</p>
+        <h5 class="card-title text-danger">Председатель</h5>
+        <p class="card-text">Просто молодец</p>
         <a href="#" class="btn btn-primary bg-dark text-danger border-0">Go somewhere</a>
       </div>
   </div>
 
-  <div  id="cards" class="  card bg-dark text-danger" style="width:20rem;margin:1rem">
-    <img class="card-img-top" src="imgCard6.JPG" alt="Card image">
+  <div  id="cards" class="card bg-dark text-danger" style="width:20rem;margin:1rem">
+    <img class="card-img-top" src="imgCard6.JPG" alt="Card image" height="50%">
       <div class="card-body">
         <h5 class="card-title text-danger">Создатель сайта</h5>
         <p class="card-text">Люблю пельмени.Что я делаю в этой компании?</p>
@@ -188,8 +189,112 @@
 
 
 <!--coolapses-->
+<div class="row">
+<p class="buttons">
+  <a class="col-md-3 btn bg-danger" data-toggle="collapse" href="#Price" role="button" aria-expanded="false" aria-controls="Price">Цены на наши проекты</a>
+  <button class="col-md-3 btn bg-danger float-center" type="button" data-toggle="collapse" data-target="#Information" aria-expanded="false" aria-controls="Information">Информация о наших проектах</button>
+  <button class="col-md-3 btn bg-danger btn-primary float-right" type="button" data-toggle="collapse" data-target=".PriceInformation" aria-expanded="false" aria-controls="Price Information">Цены и информация о наших проектах</button>
+</p>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="collapse PriceInformation" id="Price">
+      <div class="card card-body text-danger bg-dark">
+        Дешево Дешево Дешево Дешево Дешево Дешево Дешево Дешево
+        Дешево Дешево Дешево Дешево Дешево Дешево Дешево Дешево
+        Дешево Дешево Дешево Дешево Дешево Дешево Дешево Дешево
+        Дешево Дешево Дешево Дешево Дешево Дешево Дешево Дешево
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse PriceInformation" id="Information">
+      <div class="card card-body text-danger bg-dark">
+         Cупер качество Cупер качество Cупер качество Cупер качество
+         Cупер качество Cупер качество Cупер качество Cупер качество
+         Cупер качество Cупер качество Cупер качество Cупер качество
+         Cупер качество Cупер качество Cупер качество Cупер качество
+      </div>
+    </div>
+  </div>
+</div>
 <!--form-->
+<div class="contact-form">
+ <div class="container">
+  <form>
+   <div class="row text-danger">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <h1>Оставьте отзыв</h1>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 right">
+       <div class="form-group">
+         <input type="text" class="form-control form-control-lg" placeholder="Ваше имя" name="">
+       </div>
+       <div class="form-group">
+         <input type="email" class="form-control form-control-lg" placeholder="Ваш Email" name="email">
+       </div>
+       <div class="form-group">
+         <textarea class="form-control form-control-lg"  placeholder="Ваш отзыв" name="Ваш отзыв">
+         </textarea>
+       </div>
+       <input type="submit" class="btn btn-secondary btn-block bg-danger" value="Отправить" name="">
+    </div>
+   </div>
+  </form>
+</div>
+</div>
+<!--tech-phone-->
+<wrapper>
+    <div class="dws">
+        <div class="p"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">Кнопка связи</div>
+        </div>
+    </div>
+</wrapper>
+
 <!--footer-->
+<footer class="section footer-classic context-dark bg-dark text-danger">
+        <div class="container">
+          <div class="row row-30 d-flex align-items-center">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4">
+                <a class="brand" href="index.html"><img class="brand-logo-light" src="brand.jpg" width="auto" height="50px" srcset="brand.jpg" ></a>
+                <p>Этот сайт является первым учебным проектом. <br> В дальнейшем работы будут все лучше и лучше.</p>
+            <!-- Rights-->
+                <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>VeretennikovCompany</span><span>. </span><span>All Rights Reserved.</span></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Контакты</h5>
+              <dl class="contact-list">
+                <dt>Адрес:</dt>
+                <dd>Минск, ул. Минская, д.1</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>email:</dt>
+                <dd><a href="mailto:#" class="text-light">triton.68@gmail.com</a></dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Ссылки</h5>
+              <ul class="nav-list">
+                <li><a href="#"  class="text-light">О нас</a></li>
+                <li><a href="#" class="text-light">Проекты</a></li>
+                <li><a href="#" class="text-light">Новоссти</a></li>
+                <li><a href="#" class="text-light">Контакты</a></li>
+                <li><a href="#" class="text-light">Цены</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-around"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span class="text-light">Facebook</span></a></div>
+          <div class="col d-flex justify-content-around"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span class="text-light">instagram</span></a></div>
+          <div class="col d-flex justify-content-around"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span class="text-light">twitter</span></a></div>
+          <div class="col d-flex justify-content-around"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span class="text-light">google</span></a></div>
+        </div>
+      </footer>
+
 
 
 
