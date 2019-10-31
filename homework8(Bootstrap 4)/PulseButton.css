@@ -3,9 +3,10 @@ body {
 }
 .dws {
  position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
+ top: 80%;
+ left: 95%;
+ transform: translate(-80%, -5%);
+ position : fixed;
 }
 .pulse, .bloc, .phone {
  position: absolute;
