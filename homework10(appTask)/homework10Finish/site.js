@@ -1,22 +1,17 @@
 "use strict"
-/*
-let now = new Date;
-alert(now.getFullYear()+'.'+now.getMonth()+'.'+now.getDate()+' '+now.getHours()+
-':'+now.getMinutes()+':'+now.getSeconds());
-*/
 
 //selecting dom elements for manipulation
-let input = document.querySelector("input[type = 'text']");
-let ul = document.querySelector("ul");
-let container = document.querySelector("div");
-let lists = document.querySelectorAll("li");
-let spans = document.getElementsByTagName("p");
-let pencil = document.querySelector("#pencil");
-let saveBtn = document.querySelector(".save");
-let clearBtn = document.querySelector(".clear");
-let tipsBtn = document.querySelector(".tipBtn");
-let closeBtn = document.querySelector(".closeBtn");
-let overlay = document.getElementById("overlay")
+var input = document.getElementById("input");
+var ul = document.getElementById("ul");
+var container = document.getElementById("todo");
+var lists = document.querySelectorAll("li");
+var spans = document.getElementsByTagName("span");
+var pencil = document.querySelector("#pencil");
+var saveBtn = document.querySelector(".save");
+var clearBtn = document.querySelector(".clear");
+var tipsBtn = document.querySelector(".tipBtn");
+var closeBtn = document.querySelector(".closeBtn");
+var overlay = document.getElementById("overlay")
 
 
 //function to delete todo if delete span is clicked.
@@ -40,20 +35,22 @@ function loadTodo(){
 //event listener for input to add new todo to the list.
 input.addEventListener("keypress",function(keyPressed){
   if(keyPressed.which === 13){
-    //creating lists and span when enter is clicked
     let now = new Date;
-    let li = document.createElement("li");
-    let spanElement = document.createElement("span");
-    let icon = document.createElement("i");
+    now.getFullYear()+'.'+now.getMonth()+'.'+now.getDate()+' '+now.getHours()+
+    ':'+now.getMinutes()+':'+now.getSeconds();
+    //creating lists and span when enter is clicked
+    var li = document.createElement("li");
+    var spanElement = document.createElement("span");
+    var icon = document.createElement("i");
 
-    let newTodo = this.value;
+    var newTodo = this.value;
     this.value = " " ;
 
     icon.classList.add('fas', 'fa-trash-alt');
-    spanElement.append(icon);
-    ul.appendChild(li).append(spanElement,newTodo + "   "+now.getFullYear()+'.'+
-    now.getMonth()+'.'+now.getDate()+' '+now.getHours()+':'+now.getMinutes()+':'+
-    now.getSeconds());
+    spanElement.innerHTML=+icon;
+    ul.innerHTML+='<li>'+'<span><i class="fas fa-trash-alt"></i></span>'+newTodo+"  "+now.getFullYear()+
+    '.'+now.getMonth()+'.'+now.getDate()+' '+now.getHours()+
+    ':'+now.getMinutes()+':'+now.getSeconds()+'</li>';
 
     deleteTodo();
 

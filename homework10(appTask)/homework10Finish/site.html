@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Victor's To-Do List App</title>
-    <link rel = "Stylesheet" href = "site.css">
+
+  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
     <style>
@@ -15,24 +16,26 @@
     <title>homework10</title>
   </head>
   <body>
+<div class="pageOfApp">
     <div id = "todo">
-        <h1> MY TO-DO LIST <i id="pencil" class="fas fa-pencil-alt"></i> </h1>
+        <h1> MY TO-DO LIST <i id="pencil" class="fas fa-pencil-alt"></i></h1>
 
-        <input type = "text" placeholder="Add New Todo">
+        <input id="input" type = "text" placeholder="Add New Todo">
+        <div class="oneTask">
+          <div class="columnFlex">
+          <ul id="ul" class="todos">
+            <li><span><i class="fas fa-trash-alt"></i></span>Let's start planning!) </li>
 
-        <ul class="todos">
-
-          <div class="columnFlex"><li><p><i class="fas fa-trash-alt">
-          </p></i>drink</li></div>
-        </ul>
-
-        <div id= "buttons">
+          </ul>
+        </div>
+        </div>
+        <div id="buttons">
             <button class="save">Save</button>
             <button class="clear">Clear</button>
             <button class="tipBtn">Tips</button>
         </div>
     </div>
-
+</div>
     <div id = "overlay">
        <button class="closeBtn">close</button>
        <ul class="tips">
@@ -42,8 +45,8 @@
            <li>Click the clear button to clear all todos from list</li>
            <li>Click the Save button to save your todos to access them later even if you exit the browser </li>
         </ul>
-
     </div>
+
     <script src="site.js"></script>
 </body>
 </html>
