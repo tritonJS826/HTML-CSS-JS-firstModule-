@@ -36,8 +36,8 @@ function loadTodo(){
 input.addEventListener("keypress",function(keyPressed){
   if(keyPressed.which === 13){
     let now = new Date;
-    now.getFullYear()+'.'+now.getMonth()+'.'+now.getDate()+' '+now.getHours()+
-    ':'+now.getMinutes()+':'+now.getSeconds();
+    /*now.getFullYear()+'.'+now.getMonth()+'.'+now.getDate()+' '+now.getHours()+
+    ':'+now.getMinutes()+':'+now.getSeconds();*/
     //creating lists and span when enter is clicked
     var li = document.createElement("li");
     var spanElement = document.createElement("span");
