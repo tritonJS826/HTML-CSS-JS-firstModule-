@@ -50,6 +50,7 @@ createNewLiAboutObject(opel);
 
 
 function findObjectOnPage() {
+	//document.body.innerHTML = locale_HTML;
 	input = document.getElementById("text").value; //получаем значение из поля в html
 	if(input.length<1) {
 		alert('Для поиска вы должны ввести один или более символов');
@@ -96,7 +97,7 @@ function createNewLiAboutObject(obj) {
 
 	mainUl.innerHTML+='<li>'+'<span>'+obj.name;
 	for (let prop in obj) {
-		if (prop != name) {
+		if (prop != "name") {
 			mainUl.innerHTML+='<span>'+prop+": "+obj[prop]+'</span>'+'<br>';
 		}
 	}
