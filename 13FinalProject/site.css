@@ -43,33 +43,41 @@ body {
 }
 @media (max-width:1440px){
 /*узкий*/
-.flex-row {
+.flex-row-my {
   display:flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items:center  ;
 
 
 }
-.flex-column {
+.flex-column-my {
   display:flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items: center;
 }
   #Slider {
-    background-image: url('img4.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
    width:100%;
+   margin-top:-80px;
   }
+
+.carousel-caption {
+    top: 45%;
+    bottom: auto;
+}
+
+#Slider2 {
+ width:30%;
+ margin:40px;
+}
 
   #MainMenu {
    //background-color: green;
    align-items: center;
    justify-content: center;
-   min-height: 50px;
+   height: 80px;
+   z-index: 1;
   }
   #MainMenu > button {
     color: black;
@@ -77,24 +85,31 @@ body {
   }
   #MainBlock {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
   }
 
   #AboutUs {
     background-color: orange;
     width:100%;
-    align-items: center;
   }
 
   #WeAreAmazing {
     background-color: red;
+    background-image: url("card3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width:100%;
   }
 
   #WeAreATeam{
     background-color: orange;
-    width:100%
+    width:100%;
+  }
+  .card {
+    width: 24%;
+    margin:1%;
   }
   #SeeOurWork{
     background-color: red;
