@@ -1,0 +1,136 @@
+body {
+  background-color: grey;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width:1440px) {
+/*широкий*/
+ #MainMenu {
+  background-color: red;
+  display:flex;
+  flex-direction: row;
+  min-width: 1440px;
+
+ }
+
+ #Slider {
+  background-color: blue;
+  display:flex;
+  flex-direction:row;
+ }
+ #AboutUs {
+
+ }
+
+ #WeAreAmazing {
+ }
+ #WeAreATeam{
+
+ }
+ #SeeOurWork{
+
+ }
+ #Responsive{
+
+ }
+ #Footer{
+
+ }
+ #Bottom{
+
+ }
+}
+@media (max-width:1440px){
+/*узкий*/
+.flex-row {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center  ;
+
+
+}
+.flex-column {
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+  #Slider {
+    background-image: url('img4.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   width:100%;
+  }
+
+  #MainMenu {
+   //background-color: green;
+   align-items: center;
+   justify-content: center;
+   min-height: 50px;
+  }
+  #MainMenu > button {
+    color: black;
+    margin: 2%;
+  }
+  #MainBlock {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  #AboutUs {
+    background-color: orange;
+    width:100%;
+    align-items: center;
+  }
+
+  #WeAreAmazing {
+    background-color: red;
+    width:100%;
+  }
+
+  #WeAreATeam{
+    background-color: orange;
+    width:100%
+  }
+  #SeeOurWork{
+    background-color: red;
+    width:100%;
+
+  }
+  #ClientLogos{
+    background-color: orange;
+    width:100%;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  #Responsive {
+    background-color: green;
+    width:100%;
+  }
+  #Footer{
+    background-color: red;
+    width:100%;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+
+#Footer > littlePic{
+    float:left;
+}
+
+  #Bottom{
+    background-color: orange;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+  }
+  i {
+    padding:15px;
+  }
+}

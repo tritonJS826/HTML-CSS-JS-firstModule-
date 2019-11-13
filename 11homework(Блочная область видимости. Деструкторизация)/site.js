@@ -24,7 +24,7 @@ let harleyDavidson = {
 	 age : 5,
 	 cost: 10000,
 	 type: "bike"
- }
+ };
 let opel = {
 	 name: "opel",
 	 age : 17,
