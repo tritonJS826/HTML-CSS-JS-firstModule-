@@ -38,13 +38,14 @@ body {
 }
 
   #MainMenu {
-   //background-color: green;
+   background-color: green;
    align-items: center;
    justify-content: center;
    margin-top: 25px;
    height: 80px;
    z-index: 1;
    max-width: 1440px;
+
   }
   #MainMenu > button {
     color: black;
@@ -86,8 +87,10 @@ body {
     background-color: white;
     width:100%;
     max-width: 1440px;
-
   }
+
+
+
   #ClientLogos{
     background-color: orange;
     width:100%;
@@ -216,6 +219,15 @@ body {
    margin-top:-105px;
   }
 
+.fas.fa-chevron-left {
+ color: white;
+ font-size: 100pt;
+}
+.fas.fa-chevron-right {
+  color: white;
+  font-size: 100pt;
+}
+
 .carousel-caption {
     top: 45%;
     bottom: auto;
@@ -227,11 +239,13 @@ body {
    justify-content: center;
    height: 80px;
    z-index: 1;
+   width:90%;
   }
   #MainMenu > button {
     color: black;
-    margin: 2%;
-    font-size: 10pt;
+    border: 1%;
+    margin-left:1%;
+    font-size: 8pt;
   }
   #MainBlock {
     display: flex;
@@ -355,6 +369,57 @@ margin-top: 0;
     width:100%;
     height:100%;
   }
+  .divImgSeeMyWork > .row-my1 {
+    display: block;
+    position: relative;
+    color:white;
+    height: 25%;
+    text-align: center;
+    top:-100%;
+    margin-top:25%;
+    //padding-bottom:0%;
+    font-size: 20pt;
+    z-index:-1;
+  }
+
+  .divImgSeeMyWork > .row-my2 {
+    display: block;
+    position: relative;
+    color:black;
+    background-color: white;
+    height: 30%;
+    text-align: center;
+    top:-55%;
+    margin-top: -25%;
+    font-size: 20pt;
+    z-index:-1;
+  }
+
+  .divImgSeeMyWork:hover > .row-my1 {
+    display: block;
+    position: relative;
+    color:white;
+    height: 25%;
+    text-align: center;
+    top:-100%;
+    margin-top:25%;
+    //padding-bottom:0%;
+    font-size: 20pt;
+    z-index:-0;
+  }
+
+  .divImgSeeMyWork:hover > .row-my2 {
+    display: block;
+    position: relative;
+    color:black;
+    background-color: white;
+    height: 30%;
+    text-align: center;
+    top:-55%;
+    margin-top: -25%;
+    font-size: 20pt;
+    z-index:-0;
+  }
 
   #ClientLogos{
     background-color: orange;
@@ -365,7 +430,16 @@ margin-top: 0;
 
   #Slider3 {
    width:100%;
+   background-color: orange;
+   padding:1%;
   }
+  .inner.flex-row-my {
+    margin-left:10%;
+    margin-right:10%;
+    justify-content: center;
+
+  }
+
   #logo {
     font-size: 6pt;
     padding:2%;
@@ -505,5 +579,9 @@ margin-top: 0;
 hr {
   border:solid white 1px;
   width:18%;
+}
+
+#imgComp{
+  width:80%;
 }
 }
