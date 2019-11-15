@@ -121,8 +121,12 @@ body {
     flex-direction: row;
     justify-content:space-around;
     max-width: 1440px;
+  }
+
+  #aBottom {
 
   }
+
   i {
     padding:15px;
   }
@@ -263,7 +267,7 @@ body {
 
   .textLeft {
     text-align: left;
-    margin-bottom: 10pt;
+    margin-bottom: 15pt;
 
   }
 
@@ -294,9 +298,35 @@ body {
     flex-direction: row;
     align-items:flex-start;
     justify-content: flex-start;
-
-
   }
+
+  .allAmazing {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+.iconOnRoad {
+display:flex;
+flex-direction: column;
+justify-content:space-around;
+align-items: flex-start;
+justify-content: flex-start;
+margin-top: 0;
+
+}
+
+.headOnRoad {
+  font-weight: bold;
+}
+
+
+.littleTextOnRoad {
+  font-size: 10pt;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
 
   #WeAreATeam{
     background-color: white;
@@ -316,8 +346,16 @@ body {
   #SeeOurWork{
     background-color: white;
     width:100%;
-
   }
+  .divImgSeeMyWork {
+    width:25%;
+    height:100%;
+  }
+  .divImgSeeMyWork > img {
+    width:100%;
+    height:100%;
+  }
+
   #ClientLogos{
     background-color: orange;
     width:100%;
@@ -328,6 +366,11 @@ body {
   #Slider3 {
    width:100%;
   }
+  #logo {
+    font-size: 6pt;
+    padding:2%;
+  }
+
 
 
 
@@ -342,10 +385,27 @@ body {
     width:100%;
     flex-direction: row;
     justify-content:space-around;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-bottom:5%;
+    padding-top: 2%;
   }
 
-#Footer > littlePic{
-    float:left;
+ .littlePic{
+    border: 2%;
+    padding:2%;
+    margin:2%;
+}
+.padding {
+  padding:5%;
+
+}
+
+.flex-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding:1%;
 }
 
   #Bottom{
@@ -355,7 +415,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+  }
 
+  .aBottom {
+    font-size: 10pt;
+    padding:5px;
   }
   i {
     padding:15px;
@@ -367,13 +431,23 @@ body {
       cursor:pointer;
       outline:none;
       padding:5px;
+      font-weight: bold;
+
+
+
   }
   button:hover{
     background-color:rgba(50,50,50,1);
     color:orange;
     border-radius:10px;
     padding: 5px;
+
+
   }
+
+
+
+
   #buttonBorder {
     border: solid white 1px;
     min-width:40%;
@@ -391,6 +465,7 @@ body {
     padding:15px;
     padding-right: 15px;
     margin:10px;
+    margin-left: 0px;
     margin-bottom: 100px;
   }
   #whiteButton:hover {
@@ -401,6 +476,7 @@ body {
     padding:15px;
     padding-right: 15px;
     margin:10px;
+    margin-left: 0px;
     margin-bottom: 100px;
   }
   a {
@@ -422,7 +498,9 @@ body {
   }
   #orangeIcon {
     color:orange;
-    padding:20px;
+    font-size: 20pt;
+    width: 40pt;
+    height: 100pt;
   }
 hr {
   border:solid white 1px;
