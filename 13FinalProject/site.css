@@ -48,7 +48,7 @@ body {
   }
   #MainMenu > button {
     color: black;
-    margin: 2%;
+    margin: 1%;
   }
   #MainBlock {
     display: flex;
@@ -217,22 +217,17 @@ body {
     bottom: auto;
 }
 
-#Slider2 {
- width:30%;
- margin:40px;
-}
 
   #MainMenu {
-   //background-color: green;
    align-items: center;
    justify-content: center;
-   margin-top: 25px;
    height: 80px;
    z-index: 1;
   }
   #MainMenu > button {
     color: black;
     margin: 2%;
+    font-size: 10pt;
   }
   #MainBlock {
     display: flex;
@@ -243,15 +238,64 @@ body {
   #AboutUs {
     background-color: white;
     width:100%;
+
   }
 
+  #AboutUs2 {
+    margin-right: 5%;
+    margin-left: 5%;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+  }
+  #Slider2 {
+   width:100%;
+   margin-right: 40px;
+   width: 50%;
+  }
+  .aboutUScol {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    font-size: 10pt;
+    text-align: right;
+  }
+
+  .textLeft {
+    text-align: left;
+    margin-bottom: 10pt;
+
+  }
+
+  .heading {
+    margin-top: 80px;
+  }
+  .littleText {
+    font-size: 10pt;
+    margin-top: -25px;
+    margin-bottom: 40px;
+  }
+  .card-text2 {
+    text-align: center;
+  }
+
+
   #WeAreAmazing {
-    background-image: url("card5.jpg");
+    background-image: url("third.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color:white;
     width:100%;
+  }
+  .amazing {
+    width:33%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
+
+
   }
 
   #WeAreATeam{
@@ -261,7 +305,14 @@ body {
   .card {
     width: 24%;
     margin:1%;
+    border: 0;
+    text-align: justify;
   }
+.row {
+  align-self: center;
+  justify-content: space-around;
+}
+
   #SeeOurWork{
     background-color: white;
     width:100%;
@@ -273,6 +324,14 @@ body {
     flex-direction: row;
     justify-content:space-around;
   }
+
+  #Slider3 {
+   width:100%;
+  }
+
+
+
+
   #Responsive {
     background-color: white;
     width:100%;
@@ -332,8 +391,7 @@ body {
     padding:15px;
     padding-right: 15px;
     margin:10px;
-
-
+    margin-bottom: 100px;
   }
   #whiteButton:hover {
     border:solid orange 1px;
@@ -343,6 +401,7 @@ body {
     padding:15px;
     padding-right: 15px;
     margin:10px;
+    margin-bottom: 100px;
   }
   a {
     color: white;
@@ -365,4 +424,8 @@ body {
     color:orange;
     padding:20px;
   }
+hr {
+  border:solid white 1px;
+  width:18%;
+}
 }
