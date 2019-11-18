@@ -4,204 +4,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-@media (min-width:1440px) {
-/*широкий*/
-.flex-row-my {
-  display:flex;
-  flex-direction: row;
-  justify-content:space-around;
-  align-items:center ;
-
 
 }
-.flex-column-my {
+.navbar {
+  display:none;
+}
+.center {
+  width:100%;
+  max-width:1440px;
   display:flex;
   flex-direction: column;
-  justify-content:space-around;
   align-items: center;
-}
-  #Slider {
-   width:100%;
-   margin-top:-105px;
-   max-width: 1440px;
-  }
-
-.carousel-caption {
-    top: 45%;
-    bottom: auto;
+  justify-content: center;
 }
 
-#Slider2 {
- width:30%;
- margin:40px;
-}
-
-  #MainMenu {
-   background-color: green;
-   align-items: center;
-   justify-content: center;
-   margin-top: 25px;
-   height: 80px;
-   z-index: 1;
-   max-width: 1440px;
-
-  }
-  #MainMenu > button {
-    color: black;
-    margin: 1%;
-  }
-  #MainBlock {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    max-width: 1440px;
-  }
-
-  #AboutUs {
-    background-color: white;
-    width:100%;
-    max-width: 1440px;
-  }
-
-  #WeAreAmazing {
-    background-image: url("card5.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color:white;
-    width:100%;
-    max-width: 1440px;
-  }
-
-  #WeAreATeam{
-    background-color: white;
-    width:100%;
-    max-width: 1440px;
-  }
-  .card {
-    width: 24%;
-    margin:1%;
-  }
-  #SeeOurWork{
-    background-color: white;
-    width:100%;
-    max-width: 1440px;
-  }
-
-
-
-  #ClientLogos{
-    background-color: orange;
-    width:100%;
-    flex-direction: row;
-    justify-content:space-around;
-    max-width: 1440px;
-  }
-  #Responsive {
-    background-color: white;
-    width:100%;
-    max-width: 1440px;
-  }
-
-  #Footer{
-    background-color: rgba(48,48,48,1);
-    color:white;
-    width:100%;
-    flex-direction: row;
-    justify-content:space-around;
-    max-width: 1440px;
-  }
-
-#Footer > littlePic{
-    float:left;
-}
-
-
-  #Bottom{
-    background-color: black;
-    color:rgba(115,115,115,1);
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    max-width: 1440px;
-  }
-
-  #aBottom {
-
-  }
-
-  i {
-    padding:15px;
-  }
-  button {
-      background-color: Transparent;
-      background-repeat:no-repeat;
-      border: none;
-      cursor:pointer;
-      outline:none;
-      padding:5px;
-  }
-  button:hover{
-    background-color:rgba(50,50,50,1);
-    color:orange;
-    border-radius:10px;
-    padding: 5px;
-  }
-  #buttonBorder {
-    border: solid white 1px;
-    min-width:40%;
-    border-radius: 5px;
-  }
-  #addBorder {
-    border:solid 2px white;
-    border-radius:5px;
-  }
-  #whiteButton {
-    border:solid orange 1px;
-    color:orange;
-    background-color: white;
-    border-radius: 5px;
-    padding:15px;
-    padding-right: 15px;
-    margin:10px;
-
-
-  }
-  #whiteButton:hover {
-    border:solid orange 1px;
-    color:white;
-    background-color: darkorange;
-    border-radius: 5px;
-    padding:15px;
-    padding-right: 15px;
-    margin:10px;
-  }
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  a:hover {
-    color:orange;
-    text-decoration: none;
-  }
-  hr {
-    border:solid black 1px;
-  }
-  text {
-    text-align:center;
-  }
-  i {
-    padding:5px;
-  }
-  #orangeIcon {
-    color:orange;
-    padding:20px;
-  }
-}
-@media (max-width:1440px){
-/*узкий*/
 .flex-row-my {
   display:flex;
   flex-direction: row;
@@ -223,11 +39,11 @@ body {
 
 .fas.fa-chevron-left {
  color: white;
- font-size: 100pt;
+ font-size: 70pt;
 }
 .fas.fa-chevron-right {
   color: white;
-  font-size: 100pt;
+  font-size: 70pt;
 }
 
 .carousel-caption {
@@ -264,6 +80,7 @@ body {
   #AboutUs2 {
     margin-right: 5%;
     margin-left: 5%;
+    margin-bottom: 100px;
     align-items: flex-start;
     justify-content: flex-start;
 
@@ -582,7 +399,7 @@ margin-top: 0;
     padding-right: 15px;
     margin:10px;
     margin-left: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
   }
   #whiteButton:hover {
     border:solid orange 1px;
@@ -593,7 +410,7 @@ margin-top: 0;
     padding-right: 15px;
     margin:10px;
     margin-left: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
   }
 
 .ourServisesDiv {
@@ -649,4 +466,93 @@ hr {
 #imgComp{
   width:80%;
 }
+.alignStart {
+  align-self:flex-start;
+  margin:2%
+}
+
+@media (max-width: 900px) {
+/*для мобил*/
+
+.navbar {
+  display:block;
+  width:100%;
+
+}
+#MainMenu {
+  display:none;
+}
+#Slider {
+ width:100%;
+ margin-top:0;
+}
+#Slider2 {
+  //align-self: center;
+  margin-left: 25%;
+}
+
+#AboutUs .flex-row-my {
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  }
+  .heading {
+    align-self: center;
+    justify-content: center;
+  }
+  .aboutUScol {
+    align-self: center;
+  }
+
+#WeAreAmazing .flex-row-my {
+  flex-direction: column;
+  width: 100%;
+  display: none;
+  }
+
+#WeAreATeam .flex-row-my {
+  flex-direction: column;
+  width: 100%;
+  }
+  .card {
+    width:60%;
+}
+
+#SeeOurWork .flex-row-my {
+  flex-direction: column;
+  width: 100%;
+}
+.string {
+  width:70%;
+}
+
+#Responsive .flex-column-my > div {
+  display:flex;
+  flex-direction: column;
+  margin-top: 5%;
+  }
+.alignStart {
+  align-self: center;
+}
+ .textLeft {
+   text-align: center;
+ }
+ .responsiveIcon {
+  align-self: center;
+ }
+
+
+#Footer {
+display:flex;
+flex-direction: column;
+}
+#Footer.flex-column-my {
+  display:row;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+#Bottom {
+  flex-direction: column;
+  margin-bottom:10px;
 }
