@@ -34,6 +34,8 @@ function getAverageTemperature(tempObject){
    return(max);
  }
 
+//arithmul выведет произведение всех аргументов типа number,
+//если все  аргументы не number то выведет error
  function arithMul(...args){
    var multiple = 1;
    var isNumberHere = false;
